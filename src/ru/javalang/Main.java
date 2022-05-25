@@ -2,8 +2,9 @@ package ru.javalang;
 
 public class Main {
     public static void main(String[] args) {
-        if(args.length > 0) {
-            for(String s: args) System.out.println(s);
-        } else System.out.println("Привет!");
+        MessageRenderIf messageRender = new StandartOutMessageRenderer();
+        MessageProviderIf messageProvider = new MessageProvider();
+        messageRender.setMessageProvider(messageProvider);
+        messageRender.render();
     }
 }
