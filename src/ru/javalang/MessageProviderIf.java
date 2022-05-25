@@ -6,4 +6,5 @@ package ru.javalang;
 
 public interface MessageProviderIf {
     String getMessage();
+    void setMessage(String s);
 }
