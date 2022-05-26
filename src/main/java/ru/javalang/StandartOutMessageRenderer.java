@@ -1,5 +1,7 @@
 package ru.javalang;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class StandartOutMessageRenderer implements MessageRenderIf{
 
     private MessageProviderIf messageProvider;
