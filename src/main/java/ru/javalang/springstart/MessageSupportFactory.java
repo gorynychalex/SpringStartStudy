@@ -1,4 +1,4 @@
-package ru.javalang;
+package ru.javalang.springstart;
 
 import java.io.FileInputStream;
 import java.io.IOException;

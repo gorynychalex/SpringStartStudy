@@ -1,4 +1,4 @@
-package ru.javalang;
+package ru.javalang.springstart;
 
 public class MessageProvider implements MessageProviderIf{
 
