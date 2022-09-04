@@ -1,4 +1,4 @@
-package ru.javalang.springstart;
+package ru.javalang.item01simple;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

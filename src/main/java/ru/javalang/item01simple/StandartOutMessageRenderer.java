@@ -1,4 +1,4 @@
-package ru.javalang.springstart;
+package ru.javalang.item01simple;
 
 public class StandartOutMessageRenderer implements MessageRenderIf{
 
