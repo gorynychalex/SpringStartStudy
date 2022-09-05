@@ -1,14 +1,10 @@
-package ru.javalang.item00;
+package ru.javalang.model;
 
 public class Person {
     private String name;
     private Company company;
 
-    public Person() {
-        name = "Иван Иванов";
-        this.company = new Company();
-        company.setName("NanoSoft");
-    }
+    public Person() { }
 
     public Person(String name) {
         this.name = name;
